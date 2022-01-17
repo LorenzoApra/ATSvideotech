@@ -1,7 +1,5 @@
-4 led laterali
-
+4 led laterali </p>
 2 centrali 8x1
-
 sending card
 
 cablaggi ledwall
