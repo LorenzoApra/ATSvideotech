@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XmlState name="svizzera_39">
+	<versionInfo name="Resolume Arena" majorVersion="6" minorVersion="1" microVersion="2" revision="62569"/>
+	<ScreenSetup name="ScreenSetup">
+		<Params name="ScreenSetupParams"/>
+		<CurrentCompositionTextureSize JorisIsLiev="false" width="1920" height="1080"/>
+		<screens>
+			<Screen name="Schermo centrale" uniqueId="1642346989853">
+				<Params name="Params">
+					<Param name="Name" default="" value="Schermo centrale"/>
+					<Param name="Enabled" default="1" value="1"/>
+					<Param name="Hidden" default="0" value="0"/>
+				</Params>
+				<Params name="Output">
+					<ParamRange name="Opacity" default="1" value="1">
+						<BehaviourDouble name="BehaviourDouble">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+						</BehaviourDouble>
+					</ParamRange>
+					<ParamRange name="Brightness" default="0" value="0">
+						<ValueRange name="defaultRange" min="-1" max="1"/>
+						<BehaviourDouble name="BehaviourDouble">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+						</BehaviourDouble>
+					</ParamRange>
+					<ParamRange name="Contrast" default="0" value="0">
+						<ValueRange name="defaultRange" min="-1" max="1"/>
+						<BehaviourDouble name="BehaviourDouble">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+						</BehaviourDouble>
+					</ParamRange>
+					<ParamRange name="Red" default="0" value="0">
+						<ValueRange name="defaultRange" min="-1" max="1"/>
+						<BehaviourDouble name="BehaviourDouble">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+						</BehaviourDouble>
+					</ParamRange>
+					<ParamRange name="Green" default="0" value="0">
+						<ValueRange name="defaultRange" min="-1" max="1"/>
+						<BehaviourDouble name="BehaviourDouble">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+						</BehaviourDouble>
+					</ParamRange>
+					<ParamRange name="Blue" default="0" value="0">
+						<ValueRange name="defaultRange" min="-1" max="1"/>
+						<BehaviourDouble name="BehaviourDouble">
+							<PhaseSourceStatic name="PhaseSourceStatic"/>
+						</BehaviourDouble>
+					</ParamRange>
+				</Params>
+				<guides>
+					<ScreenGuide name="ScreenGuide" type="0">
+						<Params name="Params">
+							<ParamRange name="Opacity" default="0.25" value="0.25">
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamPixels name="Image"/>
+						</Params>
+					</ScreenGuide>
+					<ScreenGuide name="ScreenGuide" type="1">
+						<Params name="Params">
+							<ParamRange name="Opacity" default="0.25" value="0.25">
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamPixels name="Image"/>
+						</Params>
+					</ScreenGuide>
+				</guides>
+				<layers>
+					<Slice uniqueId="1642346989863">
+						<Params name="Common">
+							<Param name="Name" default="Layer" value="Slice 4"/>
+							<Param name="Enabled" default="1" value="1"/>
+						</Params>
+						<Params name="Input">
+							<ParamChoice name="Input Source" default="0:1" value="0:1" storeChoices="0"/>
+							<Param name="Input Opacity" default="1" value="1"/>
+							<Param name="Input Bypass/Solo" default="1" value="1"/>
+							<Param name="SoftEdgeEnable" default="0" value="0"/>
+						</Params>
+						<Params name="Output">
+							<Param name="Flip" default="0" value="0"/>
+							<ParamRange name="Brightness" default="0" value="0">
+								<ValueRange name="defaultRange" min="-1" max="1"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="Contrast" default="0" value="0">
+								<ValueRange name="defaultRange" min="-1" max="1"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="Red" default="0" value="0">
+								<ValueRange name="defaultRange" min="-1" max="1"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="Green" default="0" value="0">
+								<ValueRange name="defaultRange" min="-1" max="1"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="Blue" default="0" value="0">
+								<ValueRange name="defaultRange" min="-1" max="1"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<Param name="Is Key" default="0" value="0"/>
+							<Param name="Black BG" default="0" value="0"/>
+							<ParamRange name="BRed" altName="Red" default="0" value="0">
+								<ValueRange name="defaultRange" min="0" max="0.4000000000000000222"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="BGreen" altName="Green" default="0" value="0">
+								<ValueRange name="defaultRange" min="0" max="0.4000000000000000222"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="BBlue" altName="Blue" default="0" value="0">
+								<ValueRange name="defaultRange" min="0" max="0.4000000000000000222"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+						</Params>
+						<InputRect orientation="0">
+							<v x="0" y="0"/>
+							<v x="1920" y="0"/>
+							<v x="1920" y="1080"/>
+							<v x="0" y="1080"/>
+						</InputRect>
+						<OutputRect orientation="0">
+							<v x="0" y="768"/>
+							<v x="1024" y="768"/>
+							<v x="1024" y="1024"/>
+							<v x="0" y="1024"/>
+						</OutputRect>
+						<Warper>
+							<Params name="Warper">
+								<ParamChoice name="Point Mode" default="PM_LINEAR" value="PM_LINEAR" storeChoices="0"/>
+								<Param name="Flip" default="0" value="0"/>
+							</Params>
+							<BezierWarper controlWidth="4" controlHeight="4">
+								<vertices>
+									<v x="0" y="768"/>
+									<v x="341.333343505859375" y="768"/>
+									<v x="682.6666259765625" y="768"/>
+									<v x="1024" y="768"/>
+									<v x="0" y="853.33331298828125"/>
+									<v x="341.333343505859375" y="853.33331298828125"/>
+									<v x="682.66656494140625" y="853.33331298828125"/>
+									<v x="1024" y="853.33331298828125"/>
+									<v x="0" y="938.66668701171875"/>
+									<v x="341.333343505859375" y="938.66668701171875"/>
+									<v x="682.66656494140625" y="938.66668701171875"/>
+									<v x="1024" y="938.66668701171875"/>
+									<v x="0" y="1024"/>
+									<v x="341.333343505859375" y="1024"/>
+									<v x="682.6666259765625" y="1024"/>
+									<v x="1024" y="1024"/>
+								</vertices>
+							</BezierWarper>
+							<Homography>
+								<src>
+									<v x="0" y="768"/>
+									<v x="1024" y="768"/>
+									<v x="1024" y="1024"/>
+									<v x="0" y="1024"/>
+								</src>
+								<dst>
+									<v x="0" y="768"/>
+									<v x="1024" y="768"/>
+									<v x="1024" y="1024"/>
+									<v x="0" y="1024"/>
+								</dst>
+							</Homography>
+						</Warper>
+					</Slice>
+					<Slice uniqueId="1642346989861">
+						<Params name="Common">
+							<Param name="Name" default="Layer" value="Slice 3"/>
+							<Param name="Enabled" default="1" value="1"/>
+						</Params>
+						<Params name="Input">
+							<ParamChoice name="Input Source" default="0:1" value="0:1" storeChoices="0"/>
+							<Param name="Input Opacity" default="1" value="1"/>
+							<Param name="Input Bypass/Solo" default="1" value="1"/>
+							<Param name="SoftEdgeEnable" default="0" value="0"/>
+						</Params>
+						<Params name="Output">
+							<Param name="Flip" default="0" value="0"/>
+							<ParamRange name="Brightness" default="0" value="0">
+								<ValueRange name="defaultRange" min="-1" max="1"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="Contrast" default="0" value="0">
+								<ValueRange name="defaultRange" min="-1" max="1"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="Red" default="0" value="0">
+								<ValueRange name="defaultRange" min="-1" max="1"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="Green" default="0" value="0">
+								<ValueRange name="defaultRange" min="-1" max="1"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="Blue" default="0" value="0">
+								<ValueRange name="defaultRange" min="-1" max="1"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<Param name="Is Key" default="0" value="0"/>
+							<Param name="Black BG" default="0" value="0"/>
+							<ParamRange name="BRed" altName="Red" default="0" value="0">
+								<ValueRange name="defaultRange" min="0" max="0.4000000000000000222"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="BGreen" altName="Green" default="0" value="0">
+								<ValueRange name="defaultRange" min="0" max="0.4000000000000000222"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="BBlue" altName="Blue" default="0" value="0">
+								<ValueRange name="defaultRange" min="0" max="0.4000000000000000222"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+						</Params>
+						<InputRect orientation="0">
+							<v x="0" y="0"/>
+							<v x="1920" y="0"/>
+							<v x="1920" y="1080"/>
+							<v x="0" y="1080"/>
+						</InputRect>
+						<OutputRect orientation="0">
+							<v x="0" y="512"/>
+							<v x="1024" y="512"/>
+							<v x="1024" y="768"/>
+							<v x="0" y="768"/>
+						</OutputRect>
+						<Warper>
+							<Params name="Warper">
+								<ParamChoice name="Point Mode" default="PM_LINEAR" value="PM_LINEAR" storeChoices="0"/>
+								<Param name="Flip" default="0" value="0"/>
+							</Params>
+							<BezierWarper controlWidth="4" controlHeight="4">
+								<vertices>
+									<v x="0" y="512"/>
+									<v x="341.333343505859375" y="512"/>
+									<v x="682.6666259765625" y="512"/>
+									<v x="1024" y="512"/>
+									<v x="0" y="597.33331298828125"/>
+									<v x="341.333343505859375" y="597.33331298828125"/>
+									<v x="682.66656494140625" y="597.33331298828125"/>
+									<v x="1024" y="597.33331298828125"/>
+									<v x="0" y="682.66668701171875"/>
+									<v x="341.333343505859375" y="682.66668701171875"/>
+									<v x="682.66656494140625" y="682.66668701171875"/>
+									<v x="1024" y="682.66668701171875"/>
+									<v x="0" y="768"/>
+									<v x="341.333343505859375" y="768"/>
+									<v x="682.6666259765625" y="768"/>
+									<v x="1024" y="768"/>
+								</vertices>
+							</BezierWarper>
+							<Homography>
+								<src>
+									<v x="0" y="512"/>
+									<v x="1024" y="512"/>
+									<v x="1024" y="768"/>
+									<v x="0" y="768"/>
+								</src>
+								<dst>
+									<v x="0" y="512"/>
+									<v x="1024" y="512"/>
+									<v x="1024" y="768"/>
+									<v x="0" y="768"/>
+								</dst>
+							</Homography>
+						</Warper>
+					</Slice>
+					<Slice uniqueId="1642346989855">
+						<Params name="Common">
+							<Param name="Name" default="Layer" value="Slice 2"/>
+							<Param name="Enabled" default="1" value="1"/>
+						</Params>
+						<Params name="Input">
+							<ParamChoice name="Input Source" default="0:1" value="0:1" storeChoices="0"/>
+							<Param name="Input Opacity" default="1" value="1"/>
+							<Param name="Input Bypass/Solo" default="1" value="1"/>
+							<Param name="SoftEdgeEnable" default="0" value="0"/>
+						</Params>
+						<Params name="Output">
+							<Param name="Flip" default="0" value="0"/>
+							<ParamRange name="Brightness" default="0" value="0">
+								<ValueRange name="defaultRange" min="-1" max="1"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="Contrast" default="0" value="0">
+								<ValueRange name="defaultRange" min="-1" max="1"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="Red" default="0" value="0">
+								<ValueRange name="defaultRange" min="-1" max="1"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="Green" default="0" value="0">
+								<ValueRange name="defaultRange" min="-1" max="1"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="Blue" default="0" value="0">
+								<ValueRange name="defaultRange" min="-1" max="1"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<Param name="Is Key" default="0" value="0"/>
+							<Param name="Black BG" default="0" value="0"/>
+							<ParamRange name="BRed" altName="Red" default="0" value="0">
+								<ValueRange name="defaultRange" min="0" max="0.4000000000000000222"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="BGreen" altName="Green" default="0" value="0">
+								<ValueRange name="defaultRange" min="0" max="0.4000000000000000222"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="BBlue" altName="Blue" default="0" value="0">
+								<ValueRange name="defaultRange" min="0" max="0.4000000000000000222"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+						</Params>
+						<InputRect orientation="0">
+							<v x="0" y="0"/>
+							<v x="1920" y="0"/>
+							<v x="1920" y="1080"/>
+							<v x="0" y="1080"/>
+						</InputRect>
+						<OutputRect orientation="0">
+							<v x="0" y="256"/>
+							<v x="1024" y="256"/>
+							<v x="1024" y="512"/>
+							<v x="0" y="512"/>
+						</OutputRect>
+						<Warper>
+							<Params name="Warper">
+								<ParamChoice name="Point Mode" default="PM_LINEAR" value="PM_LINEAR" storeChoices="0"/>
+								<Param name="Flip" default="0" value="0"/>
+							</Params>
+							<BezierWarper controlWidth="4" controlHeight="4">
+								<vertices>
+									<v x="0" y="256"/>
+									<v x="341.333343505859375" y="256"/>
+									<v x="682.6666259765625" y="256"/>
+									<v x="1024" y="256"/>
+									<v x="0" y="341.333343505859375"/>
+									<v x="341.333343505859375" y="341.333343505859375"/>
+									<v x="682.66656494140625" y="341.333343505859375"/>
+									<v x="1024" y="341.333343505859375"/>
+									<v x="0" y="426.666656494140625"/>
+									<v x="341.333343505859375" y="426.66668701171875"/>
+									<v x="682.66656494140625" y="426.66668701171875"/>
+									<v x="1024" y="426.666656494140625"/>
+									<v x="0" y="512"/>
+									<v x="341.333343505859375" y="512"/>
+									<v x="682.6666259765625" y="512"/>
+									<v x="1024" y="512"/>
+								</vertices>
+							</BezierWarper>
+							<Homography>
+								<src>
+									<v x="0" y="256"/>
+									<v x="1024" y="256"/>
+									<v x="1024" y="512"/>
+									<v x="0" y="512"/>
+								</src>
+								<dst>
+									<v x="0" y="256"/>
+									<v x="1024" y="256"/>
+									<v x="1024" y="512"/>
+									<v x="0" y="512"/>
+								</dst>
+							</Homography>
+						</Warper>
+					</Slice>
+					<Slice uniqueId="1642346989853">
+						<Params name="Common">
+							<Param name="Name" default="Layer" value="Slice 1"/>
+							<Param name="Enabled" default="1" value="1"/>
+						</Params>
+						<Params name="Input">
+							<ParamChoice name="Input Source" default="0:1" value="0:1" storeChoices="0"/>
+							<Param name="Input Opacity" default="1" value="1"/>
+							<Param name="Input Bypass/Solo" default="1" value="1"/>
+							<Param name="SoftEdgeEnable" default="0" value="0"/>
+						</Params>
+						<Params name="Output">
+							<Param name="Flip" default="0" value="0"/>
+							<ParamRange name="Brightness" default="0" value="0">
+								<ValueRange name="defaultRange" min="-1" max="1"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="Contrast" default="0" value="0">
+								<ValueRange name="defaultRange" min="-1" max="1"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="Red" default="0" value="0">
+								<ValueRange name="defaultRange" min="-1" max="1"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="Green" default="0" value="0">
+								<ValueRange name="defaultRange" min="-1" max="1"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="Blue" default="0" value="0">
+								<ValueRange name="defaultRange" min="-1" max="1"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<Param name="Is Key" default="0" value="0"/>
+							<Param name="Black BG" default="0" value="0"/>
+							<ParamRange name="BRed" altName="Red" default="0" value="0">
+								<ValueRange name="defaultRange" min="0" max="0.4000000000000000222"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="BGreen" altName="Green" default="0" value="0">
+								<ValueRange name="defaultRange" min="0" max="0.4000000000000000222"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="BBlue" altName="Blue" default="0" value="0">
+								<ValueRange name="defaultRange" min="0" max="0.4000000000000000222"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+						</Params>
+						<InputRect orientation="0">
+							<v x="0" y="0"/>
+							<v x="1920.000244140625" y="0"/>
+							<v x="1920.000244140625" y="1080"/>
+							<v x="0" y="1080"/>
+						</InputRect>
+						<OutputRect orientation="0">
+							<v x="0" y="0"/>
+							<v x="1024" y="0"/>
+							<v x="1024" y="256"/>
+							<v x="0" y="256"/>
+						</OutputRect>
+						<Warper>
+							<Params name="Warper">
+								<ParamChoice name="Point Mode" default="PM_LINEAR" value="PM_LINEAR" storeChoices="0"/>
+								<Param name="Flip" default="0" value="0"/>
+							</Params>
+							<BezierWarper controlWidth="4" controlHeight="4">
+								<vertices>
+									<v x="0" y="0"/>
+									<v x="341.333343505859375" y="0"/>
+									<v x="682.6666259765625" y="0"/>
+									<v x="1024" y="0"/>
+									<v x="0" y="85.33333587646484375"/>
+									<v x="341.333343505859375" y="85.33333587646484375"/>
+									<v x="682.66656494140625" y="85.33333587646484375"/>
+									<v x="1024" y="85.33333587646484375"/>
+									<v x="0" y="170.666656494140625"/>
+									<v x="341.333343505859375" y="170.6666412353515625"/>
+									<v x="682.66656494140625" y="170.6666412353515625"/>
+									<v x="1024" y="170.666656494140625"/>
+									<v x="0" y="256"/>
+									<v x="341.333343505859375" y="256"/>
+									<v x="682.6666259765625" y="256"/>
+									<v x="1024" y="256"/>
+								</vertices>
+							</BezierWarper>
+							<Homography>
+								<src>
+									<v x="0" y="0"/>
+									<v x="1024" y="0"/>
+									<v x="1024" y="256"/>
+									<v x="0" y="256"/>
+								</src>
+								<dst>
+									<v x="0" y="0"/>
+									<v x="1024" y="0"/>
+									<v x="1024" y="256"/>
+									<v x="0" y="256"/>
+								</dst>
+							</Homography>
+						</Warper>
+					</Slice>
+				</layers>
+				<OutputDevice>
+					<OutputDeviceVirtual name="Schermo centrale" deviceId="VirtualSchermo centrale" idHash="1034888241994779538" width="1920" height="1080">
+						<Params name="Params">
+							<ParamRange name="Width" default="800" value="1920">
+								<ValueRange name="defaultRange" min="1" max="16384"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+							<ParamRange name="Height" default="600" value="1080">
+								<ValueRange name="defaultRange" min="1" max="16384"/>
+								<BehaviourDouble name="BehaviourDouble">
+									<PhaseSourceStatic name="PhaseSourceStatic"/>
+								</BehaviourDouble>
+							</ParamRange>
+						</Params>
+					</OutputDeviceVirtual>
+				</OutputDevice>
+			</Screen>
+		</screens>
+		<SoftEdging>
+			<Params name="Soft Edge">
+				<ParamRange name="Gamma Red" default="2" value="2">
+					<ValueRange name="defaultRange" min="1" max="3"/>
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="Gamma Green" default="2" value="2">
+					<ValueRange name="defaultRange" min="1" max="3"/>
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="Gamma Blue" default="2" value="2">
+					<ValueRange name="defaultRange" min="1" max="3"/>
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="Gamma" default="1" value="1">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="Luminance" default="0.5" value="0.5">
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+				<ParamRange name="Power" default="2" value="2">
+					<ValueRange name="defaultRange" min="0.10000000000000000555" max="7"/>
+					<BehaviourDouble name="BehaviourDouble">
+						<PhaseSourceStatic name="PhaseSourceStatic"/>
+					</BehaviourDouble>
+				</ParamRange>
+			</Params>
+		</SoftEdging>
+	</ScreenSetup>
+</XmlState>
+
