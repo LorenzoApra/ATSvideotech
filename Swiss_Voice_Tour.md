@@ -1,7 +1,8 @@
-4 led laterali 2x1,5m
-2 centrali 8x1
+4 led laterali 2x1,5m (512*384 px)
 
-sending card
+2 centrali 7,5x1 (1920*256 px)
+
+sending card 3 660
 
 cablaggi ledwall
 
