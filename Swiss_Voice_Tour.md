@@ -10,9 +10,9 @@
 
 2 centrali 7,5x1 (1920*256 px)
 
-15 flybar con  goffare + spanset
-
 30 mattonelle 3.9
+
+15 flybar con  goffare + spanset
 
 78 mattonelle 3.9 tot
 
