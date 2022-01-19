@@ -1,4 +1,4 @@
-4 led laterali </p>
+4 led laterali 2x1,5m
 2 centrali 8x1
 
 sending card
