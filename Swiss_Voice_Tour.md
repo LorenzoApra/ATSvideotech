@@ -68,7 +68,9 @@ streamdeck
 <b> Materiale Backup </b>
 
 1 fibra 80 metri
-2 trasporti lan hdmi
-4 lan ruzzole
-2 sdi 20m
 
+2 trasporti lan hdmi
+
+4 lan ruzzole
+
+2 sdi 20m
