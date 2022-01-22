@@ -6,33 +6,42 @@
 
 16 flybar con aliscaf
 
-32 montanti verticali
+4 tubi da 2,5m
 
-2 centrali 7,5x1 (1920*256 px)
+
+
+1 centrali 7,5x1 (1920*256 px)
 
 30 mattonelle 3.9
 
-15 flybar con  goffare + spanset
+7 flybar con goffare + spanset
 
-78 mattonelle 3.9 tot
+30 mattonelle 3.9 tot
+
+8 flybar con aliscaf
+
 
 sending card 3 660
 
-cablaggi ledwall
 
 2 media server arena
 
 1 switch rete
 
-cavi rete
+4 eternet 5 m
+4 ethernet 10 m
+10 ethercom 20 m
 
-controller midi
+12 ruzzole lan 
+
+2 controller midi (1 apcmini lollo)
 
 atem television studio
 
 streamdeck
 
-trasporto su fibra teranex mini
-
-fibra 12 capelli
-
+4 fibra converter
+4 updown cross
+2 teranex mini fibra to hdmi
+1 fibra 500 metri + 1 80 metri
+2 trasporti lan hdmi
