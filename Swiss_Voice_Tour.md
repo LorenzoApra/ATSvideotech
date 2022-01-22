@@ -1,4 +1,5 @@
 <b> Led Piccoli </b>
+
 4 led laterali 2x1,5m (512*384 px)
 
 48 Mattonelle 3.9
@@ -65,5 +66,9 @@ streamdeck
 <br>
 
 <b> Materiale Backup </b>
-1 80 metri
+
+1 fibra 80 metri
 2 trasporti lan hdmi
+4 lan ruzzole
+2 sdi 20m
+
