@@ -11,6 +11,8 @@
 2 linee 16A alim x led
 
 
+
+
 1 centrali 7,5x1 (1920*256 px)
 
 30 mattonelle 3.9x
@@ -22,6 +24,9 @@
 8 flybar con aliscaf
 
 3 linee 16A per alimentazione
+
+
+
 
 
 sending card 3 660
