@@ -10,8 +10,8 @@
 
 2 linee 16A alim x led
 
-
-
+</p>
+</p>
 
 1 centrali 7,5x1 (1920*256 px)
 
@@ -26,7 +26,8 @@
 3 linee 16A per alimentazione
 
 
-
+</p>
+</p>
 
 
 sending card 3 660
