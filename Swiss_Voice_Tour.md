@@ -1,3 +1,4 @@
+<b> Led Piccoli </b>
 4 led laterali 2x1,5m (512*384 px)
 
 48 Mattonelle 3.9
@@ -12,6 +13,8 @@
 
 <br>
 <br>
+
+<b> Led centrale </b>
 
 1 centrali 7,5x1 (1920*256 px)
 
@@ -39,9 +42,13 @@ sending card 3 660
 
 4 eternet 5 m
 4 ethernet 10 m
-10 ethercom 20 m
+8 ethercom 20 m
+10 cavi hdmi corti
+10 cavi hdmi 5m
+5 cavi sdi corti
+5 cavi sdi 5m
 
-12 ruzzole lan 
+10 ruzzole lan 
 
 2 controller midi (1 apcmini lollo)
 
@@ -49,8 +56,14 @@ atem television studio
 
 streamdeck
 
-4 fibra converter
+2 fibra converter
 4 updown cross
 2 teranex mini fibra to hdmi
-1 fibra 500 metri + 1 80 metri
+1 fibra 500 metri
+
+<br>
+<br>
+
+<b> Materiale Backup </b>
+1 80 metri
 2 trasporti lan hdmi
