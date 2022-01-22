@@ -71,6 +71,9 @@ streamdeck
 
 2 trasporti lan hdmi
 
-4 lan ruzzole
+6 lan ruzzole
 
 2 sdi 20m
+
+3 dvi - hdmi
+
