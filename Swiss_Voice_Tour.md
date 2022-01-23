@@ -77,3 +77,7 @@ streamdeck
 
 3 dvi - hdmi
 
+2 taurus
+
+1 sending card aggiuntiva
+
